@@ -1,0 +1,125 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html,body,div,h1,p {
+  font-size:100%;
+}
+
+@media screen and (max-width:1128px) {
+  .main-wrapper-text {
+    float:none;
+    margin: 0 auto;
+    .main-wrapper-text_content {
+    width:100%;
+    float:none;
+    display:block;
+    }
+  }
+  .main-contents {
+    position:static;
+    display:block;
+  }
+  .three-step-wrapper {
+    .container {
+      width:648px;
+      padding:0 15px;
+      margin:0 auto;
+      height:auto;
+      
+      h1 {
+        font-weight:bold;
+        font-size:40px;
+        color:rgb(51,51,51)
+      }
+      .three-step-wrapper-contents {
+        float:none;
+        display: block;
+        .three-step-wrapper-content {
+          width:100%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+
+  
+  .question-wrapper {
+    text-align:left;
+    .container {
+        width:648px;
+        padding:0 15px;
+        margin:0 auto;
+        height:auto;
+        .under-line {
+          
+        }
+        h1 {
+          font-size:40px;
+        }
+      .question-wrapper-contents {
+          display: block!important;
+        .question-wrapper-content {
+            width:100%;
+            margin: 0 auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width:744px) {
+  .header-text {
+    display:none;
+    p {
+      display:none;
+    }
+    h1 {
+      display:none;
+    }
+    #start-button {
+      display:none;
+    }
+  }
+  .example-wrapper {
+    display:block!important;
+    .container {
+      width:100%;
+      margin:0 auto;
+      .example-wrapper-contents {
+        display:block!important;
+        width:100%;
+        .example-wrapper-img {
+          width:100%;
+          display:block!important;
+        }
+        .example-wrapper-text {
+          width:100%;
+          display:block!important;
+        }
+      }
+    }
+  }
+  .details-wrapper {
+    .details-contents {
+      display:block;
+      width:100%;
+      a {
+        width:100%;
+      }
+      .details-content {
+        .details-txt {
+          float:right;
+          background: red;
+        }
+      }
+    }
+  }
+}
